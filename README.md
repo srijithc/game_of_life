@@ -23,7 +23,7 @@ Things you may want to cover:
     * @@oscillator_count = 50 (times it oscillates)
     
     * type = :blinker (default type, if type parameter is not passed) 
-* Note: Added type called to "random" which will pick random values to verify the scipt with different combination    
+* Note: Added type called "random" which will pick random values to verify the script with different combination    
 * Sample outputs
     * ruby game_of_life.rb  
       
