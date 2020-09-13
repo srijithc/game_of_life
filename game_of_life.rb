@@ -1,5 +1,5 @@
 # Conway's Game of Life
-# Supported types: [:block, :toad, :blinker]
+# Supported types: [:block, :toad, :blinker, :random]
 #
 class GameOfLife
   @@x = 6;
