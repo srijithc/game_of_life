@@ -15,6 +15,21 @@ class GameOfLife
   end
 
   #
+  # oscillate
+  #
+  def oscillate
+    construct_array_with_default_live_cells
+    next_array = @start_array
+    (1..@@oscillator_count).to_a.each do |i|
+      p "----------#{i}-----------"
+      next_array = apply_rule(next_array)
+      print_array next_array
+    end
+  end
+
+  private
+
+  #
   # construct_array_with_default_live_cells
   #
   def construct_array_with_default_live_cells
@@ -41,21 +56,6 @@ class GameOfLife
     end
     @start_array
   end
-
-  #
-  # oscillate
-  #
-  def oscillate
-    construct_array_with_default_live_cells
-    next_array = @start_array
-    (1..@@oscillator_count).to_a.each do |i|
-      p "----------#{i}-----------"
-      next_array = apply_rule(next_array)
-      print_array next_array
-    end
-  end
-
-  private
 
   #
   # print_array
