@@ -16,13 +16,13 @@ Things you may want to cover:
     Ex: ruby game_of_life.rb toad
 * Predefined values
 
-    @@x = 6 (rows)
+    * @@x = 6 (rows)
     
-    @@y = 6 (columns)
+    * @@y = 6 (columns)
     
-    @@oscillator_count = 50 (times it oscillates)
+    * @@oscillator_count = 50 (times it oscillates)
     
-    type = :blinker (default type, if type parameter is not passed) 
+    * type = :blinker (default type, if type parameter is not passed) 
 * Note: Added type called to random which will pick random values to verify the scipt with different combination    
 * Sample outputs
     * ruby game_of_life.rb  
